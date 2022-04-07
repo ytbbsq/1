@@ -22,7 +22,21 @@ def test_input():
     else:
         print("入場禁止です！！")
 
-test_input()
+def test_list():
+    fruits=["a","b",1]
+    print(fruits[-1])
+    #語尾に追加　fruits.append("c")
+    #指定位置に追加(この例だと3番目にCが入る)　fruits.insert(3,"c")
+    #削除　fruits.remove("a")
+    #並べ替え　fruits.sort(reverse=True)
+    #要素数を取得　len(fruits)
+    #スライス 抜き出し fruits[開始:未満:ｽﾃｯﾌﾟ]
+    #スライス 全部　fruits[:]
+    #スライス 逆順にする fruits[::-1]
+    #結合1　a(4次元) = a(1次元) + b(3次元)
+    #結合2 a(1,3次元) = = a.append(b)
+
+test_list()
 
 # a 「Ctrl + / 」（行コメント）
 # 「Shift + Alt + a 」（ブロックコメント)
